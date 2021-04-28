@@ -15,3 +15,21 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.header {
+    background: url('../images/header bg.png') no-repeat center;
+    background-size:cover;
+
+}
+
+.header__top-line {
+    background: rgba(255,255,255,0.8);
+    padding: 17px 0;
+     
+}
+
+.header__top-line .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}

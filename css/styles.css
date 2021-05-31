@@ -526,3 +526,22 @@ body {
 .footer__email {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1200px) {
+.header__content {
+    padding: 150px 0;
+}
+.container {
+    padding: 0 40px;
+}
+
+.info {
+    padding: 70px 0;
+}
+
+.info__text-wrapper {
+    width: calc(100% - 400px);
+}
+
+
+}
